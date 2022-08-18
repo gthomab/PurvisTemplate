@@ -1,0 +1,13 @@
+Package: PurvisTemplate
+Title: This package contains the template for PurvisLab projects
+Version: 0.0.0.01
+Authors@R: person("Gareth", "Thomas", email = "gareth.thomas@nhm.ac.uk", role = c("aut", "cre"))
+Description: This package contains the numerous templates and tools to make projects within the Purvis and PREDICTS teams reproducible, consistent, and efficient. This package is built upon the package CIDAtools (credit: https://github.com/ledbettc/CIDAtools).
+Depends: R (>= 3.4.0.0), stats
+Suggests: git2r, 
+          survey, 
+          xlsx
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1

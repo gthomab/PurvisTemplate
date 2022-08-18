@@ -1,0 +1,47 @@
+Binding: proj_setup
+Title: Purvis Lab Project
+OpenFiles: ReadMe.md
+
+Parameter: PI
+Widget: TextInput
+Label: Principal Investigator
+Default: <INSERT THEIR NAME>
+Position: Right
+
+Parameter: analyst
+Widget: TextInput
+Label: Analyst
+Default: <INSERT YOUR NAME>
+Position: Right
+
+Parameter: git_init
+Widget: CheckboxInput
+Label: Initialize Git Repo?
+Default: On
+Position: Left
+
+Parameter: remote_origin
+Widget: TextInput
+Label: (Optional) Set Remote Origin:
+Default: <INSERT GITHUB ORIGIN>
+Position: Right
+
+Parameter:initcommit
+Widget:CheckboxInput
+Label:Initial Commit with ReadMe?
+Default: Off
+Position:Left
+
+Parameter: nodata
+Widget: SelectInput
+Label: Exclude Data from git
+Fields: No, By File Type, By Location
+Default: No
+Position: Left
+
+Parameter: meta
+Widget: CheckboxInput
+Label: Store Project Data
+Default: Off
+Position: Left
+
