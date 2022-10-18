@@ -60,7 +60,7 @@ CreateReadMe <- function(template = c('data', 'doc', 'figs', 'output',
 
   readme$R    <- c("# R ",
                             "  ",
-                            "This folder contains abstracts, posters, papers and anything else produced for dissemination.  ",
+                            "contains R script and other R associated files  ",
                             "  ",
                             "Details about the files:  ",
                             "  ",
