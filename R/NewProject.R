@@ -7,7 +7,8 @@ proj_setup <- function(path, ...){
   ProjectName <- paste0(path)
 
   ### Setup ReadMe Files ----
-  readme <- c(paste0("# ", ProjectName, "  "),
+  readme <- c(paste0("# Consider whether this repo should be public or private? Is it commercially sensitive? If made public, add an appropriate license on GitHub (i.e., MIT)."),
+              paste0("# ", ProjectName, "  "),
               paste0("**PI**:", PI, "  "),
               paste0("**Analyst**:", analyst, "  "),
               "",
