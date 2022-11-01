@@ -12,7 +12,7 @@
 #'@keywords ReadMe ReadMe.md
 #'@export
 CreateReadMe <- function(template = c('data', 'doc', 'figs', 'output',
-                                      'R', 'reports'), path = getwd()){
+                                      'R', 'reports', 'tmp'), path = getwd()){
   # set which ReadMe.md files to create
   template <- match.arg(template, several.ok = T)
 
@@ -71,6 +71,15 @@ CreateReadMe <- function(template = c('data', 'doc', 'figs', 'output',
   readme$reports <- c("# reports",
                       "  ",
                       "contains RMarkdown files that document the analysis or report on results  ",
+                      "  ",
+                      "Details about the files:  ",
+                      "  ",
+                      "File | Description",
+                      "---|---------------------------------------------------------------------",
+                      "  ")
+  readme$tmp <- c("# tmp",
+                      "  ",
+                      "folder for temporary outputs created during terra executions  ",
                       "  ",
                       "Details about the files:  ",
                       "  ",
