@@ -108,7 +108,7 @@ proj_setup <- function(path, ...){
                           "*.sas7bdat",
                           "*.xport",
                           "# Access",
-                          "*.mdb"
+                          "*.mdb",
                          "*.html",
                          "*.rds",
                          "*.pdf"), collapse = '\n')
