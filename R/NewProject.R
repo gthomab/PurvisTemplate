@@ -22,7 +22,7 @@ proj_setup <- function(path, ...){
               "output | contains any type of intermediate or output files",
               "R | contains R scripts with function definitions",
               paste("reports | contains RMarkdown files that document the analysis or
-              report on results")
+              report on results"),
              paste("tmp | contains temporary files for terra applications"))
 
   # write to readme file
