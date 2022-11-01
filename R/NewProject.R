@@ -22,7 +22,8 @@ proj_setup <- function(path, ...){
               "output | contains any type of intermediate or output files",
               "R | contains R scripts with function definitions",
               paste("reports | contains RMarkdown files that document the analysis or
-              report on results"))
+              report on results")
+             paste("tmp | contains temporary files for terra applications"))
 
   # write to readme file
   writeLines(paste0(readme, collapse = '\n'),
@@ -107,7 +108,10 @@ proj_setup <- function(path, ...){
                           "*.sas7bdat",
                           "*.xport",
                           "# Access",
-                          "*.mdb"), collapse = '\n')
+                          "*.mdb"
+                         "*.html",
+                         "*.rds",
+                         "*.pdf"), collapse = '\n')
     }
 
     # by Folder
