@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: PurvisTemplate
+message: Please cite this package as below.
+type: R Package
+authors:
+  - given-names: Gareth E
+    family-names: Thomas
+    email: gareth.thomas@nhm.ac.uk
+    affiliation: Natural History Museum
+    orcid: 'https://orcid.org/0000-0002-3883-177X'
+title: "PurvisTemplate"
+version: 1.0.0
+doi: 10.5072/zenodo.1135794
+date-released: 2022-12-13
